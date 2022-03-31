@@ -1,4 +1,4 @@
-flask import Flask, request
+from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 from pymongo import MongoClient
 from datetime import datetime
